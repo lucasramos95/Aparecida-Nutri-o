@@ -28,7 +28,7 @@ for (var i = 0; i < pacientes.length ; i++) {
     if(!alturaEhValida){
         console.log("Altura inválida!");
         alturaEhValida = false;
-        tdImc.textContent = "Altura inválida!";
+        tdImc.textContent = "Altura inválida";
         paciente.classList.add("paciente-invalido");
     }
 
